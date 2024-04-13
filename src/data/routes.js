@@ -5,12 +5,16 @@ const routes = [
     path: '/',
   },
   {
-    label: 'Work & SCHOOL',
-    path: '/resume',
+    label: 'Work Experience',
+    path: '/work',
+  },
+  {
+    label: 'Education & Development',
+    path: '/education',
   },
   {
     label: 'Interests',
-    path: '/about',
+    path: '/interests',
   },
   {
     label: 'Contact',
