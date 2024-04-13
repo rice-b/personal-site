@@ -16,9 +16,9 @@ const About = () => {
       });
   });
 
-  const count = markdown.split(/\s+/)
+  /* const count = markdown.split(/\s+/)
     .map((s) => s.replace(/\W/g, ''))
-    .filter((s) => s.length).length;
+    .filter((s) => s.length).length; */
 
   return (
     <Main
@@ -29,8 +29,8 @@ const About = () => {
         <header>
           <div className="title">
             <h2><Link to="/about">Interests</Link></h2>
-            <p>(in about {count} words)</p>
-            My interests sharpen my skills, creativity and broaden my perspective
+            <p>My interests sharpen my skills, creativity and broaden my perspective</p>
+            {/* <p>(in about {count} words)</p> */}
           </div>
         </header>
         <Markdown>
