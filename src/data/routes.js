@@ -1,24 +1,16 @@
 const routes = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: 'Brendan Rice',
     path: '/',
   },
   {
-    label: 'About',
-    path: '/about',
-  },
-  {
-    label: 'Resume',
+    label: 'Work & Education',
     path: '/resume',
   },
   {
-    label: 'Projects',
-    path: '/projects',
-  },
-  {
-    label: 'Stats',
-    path: '/stats',
+    label: 'Interests',
+    path: '/about',
   },
   {
     label: 'Contact',
