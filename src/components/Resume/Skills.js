@@ -20,7 +20,7 @@ const Skills = ({ skills, categories }) => {
     setButtons(newButtons);
   };
 
-  const getRows = () => {
+  const SCHOOL1 = () => { // eslint-disable-line @typescript-eslint/no-unused-vars
     // search for true active categories
     const actCat = Object.keys(buttons).reduce((cat, key) => (
       buttons[key] ? key : cat
@@ -69,7 +69,7 @@ const Skills = ({ skills, categories }) => {
         {getButtons()}
       </div>
       <div className="skill-row-container">
-        {getRows()}*/}
+        {SCHOOL1()}*/}
       </div> 
     </div>
   );
