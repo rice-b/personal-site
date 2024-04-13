@@ -10,7 +10,7 @@
  * If undefined, the position is still active.
  * @property {string|undefined} summary - html/markdown summary of the position
  *  * @property {string|undefined}  - html/markdown summary of the position
- *  * @property {string|undefined} achievements - html/markdown summary of the position
+ *  * @property {string} achievements - html/markdown summary of the position
  *  * @property {string|undefined} deliverables - html/markdown summary of the position
  *  * @property {string|undefined} highlights - html/markdown summary of the position
  * @property {string[]} keypoints - plain text highlights of the position (bulleted list)
@@ -39,13 +39,8 @@ const work = [
     Managed the lifecycle of numerous learning products and projects, from prototype development to piloting new learning solutions, demonstrating 
     a pragmatic and innovative approach to L&D challenges. Provided innovation consultancy with senior leaders to understand priorities and align 
     learning initiatives with business needs. Hired for FTC (fixed term contract) (maternity cover).`,
-    achievements: [
-      'Designed and developed 3 AI-driven simulation (roleplays) with a 90% satisfaction and 100% on the job relevance rating.',
-      'Organised 3 internal innovation conferences with an external speaker reaching 120 internal employees with an average 85% satisfaction rating.',
-      'Published 4 innovation newsletters reaching ~700 internal employees.',
-      'Evaluated coaching platforms across key criteria and 6 dimensions and shortlisted 2 from 50+ vendors.',
-      'Managed the innovation process by creating a dashboard of 100 products segmented by 8 stages.',
-    ],
+    achievements:
+      'Designed and developed 3 AI-driven simulation (roleplays) with a 90% satisfaction and 100% on the job relevance rating. Organised 3 internal innovation conferences with an external speaker reaching 120 internal employees with an average 85% satisfaction rating. Published 4 innovation newsletters reaching ~700 internal employees. Evaluated coaching platforms across key criteria and 6 dimensions and shortlisted 2 from 50+ vendors. Managed the innovation process by creating a dashboard of 100 products segmented by 8 stages.',
   },
   {
     name: 'Capgemini',
@@ -54,9 +49,9 @@ const work = [
     startDate: '2013-07-01',
     endDate: '2023-01-01',
     summary: `Sector experience: Aviation, Consulting, Defence, FMCG, IT, UK Public Sector and Utilities (Electricity & Water). '/n' Influenced organisational transformation efforts through targeted learning strategies, leveraging stakeholder insights to optimise training impact. Designed and developed a range of learning deliverables (eLearnings, vILT, Peer to Peer, online resources etc.) to address gaps achieving client business goals leveraging TAP QA Learning and The LPI accredited learning methodology. Leveraged Kirkpatrick's evaluation and The Learning-Transfer Evaluation Model to determine how success will be measured for learning initiatives. Managed and led cross-functional teams remotely across various time zones, including project and people management responsibilities. Experience engaging learners who are office based or field force. Initiated a talent mobility project within a technology consultancy, focusing on creating efficient learning pathways for new and existing employees. Participated in Capgemini's Graduate Programme, leading initiatives to streamline digital marketing, SAP data processes and supporting an LMS for 80,000 users.`,
-    highlights: [
-      'Built production, online, end-to-end optimized machine learning pipelines for time-series prediction. Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting. Set and communicated team priorities that supported the broader organizations goals. Aligned strategy, processes, and decision-making across teams. Set clear expectations with individuals based on their level and role and aligned them to the broader organization's goals. Met regularly with individuals to discuss performance and development, and provided feedback and coaching. Developed the long-term technical vision and roadmap within, and often beyond, the scope of my teams. Evolved the roadmap to meet anticipated future requirements and infrastructure needs.',
-    ],
+    achievements: 'Achievements',
+    achievements: 'Successfully scaled learning solutions to meet the needs of groups ranging from 10 to over 10,000 participants, enhancing workforce capabilities. Streamlined digital marketing product imaging content and SAP data globally; managed teams across continents, standardising SAP product data and service desk operations for 400 brand/market combinations. Produced stakeholder analysis for an Oracle ERP IT transformation programme impacting 7.8k users. Presented key findings to the HR steering committee as an input into the next phase of the programme. Created e-learning and facilitated a virtual instructor led training series for 1,400 Salesforce users over 3 months for successive learner cohorts and partner organisations. End to end design and delivery for a public sector client included a strategy, implementation, evaluation that was used to input into designing a skills framework for automation. Reduced recruitment costs and accelerated the qualification process of candidates for the public and private sectors through effective learning and development pathways.',
+    deliverables: '',
   },
 ];
 
