@@ -18,6 +18,10 @@ const Education = ({ data }) => (
   </div>
 );
 
+Education.defaultProps = {
+  data: [],
+};
+
 Education.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     school: PropTypes.string,
@@ -25,10 +29,6 @@ Education.propTypes = {
     link: PropTypes.string,
     year: PropTypes.number,
   })),
-};
-
-Education.defaultProps = {
-  data: [],
 };
 
 export default Education;
