@@ -14,10 +14,11 @@ const Contact = () => (
       <header>
         <div className="title">
           <h2><Link to="/contact">Contact</Link></h2>
+          <p>Feel free to reach out</p>
         </div>
       </header>
       <div className="email-at">
-        <p>Feel free to get in touch. You can email me at:<EmailLink /></p>
+        <p>You can <Link to="https://calendar.app.google/L84NfFfh2ZAH5t259">book a meeting</Link>, <Link to="https://www.linkedin.com/in/brendanrice">message on Linkedin</Link>, or email me at:<EmailLink /></p>
       </div>
       <ContactIcons />
     </article>
