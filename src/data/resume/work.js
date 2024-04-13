@@ -9,7 +9,11 @@
  * @property {string|undefined} endDate - End date of the position in YYYY-MM-DD format.
  * If undefined, the position is still active.
  * @property {string|undefined} summary - html/markdown summary of the position
- * @property {string[]} highlights - plain text highlights of the position (bulleted list)
+ *  * @property {string|undefined}  - html/markdown summary of the position
+ *  * @property {string|undefined} achievements - html/markdown summary of the position
+ *  * @property {string|undefined} deliverables - html/markdown summary of the position
+ *  * @property {string|undefined} highlights - html/markdown summary of the position
+ * @property {string[]} keypoints - plain text highlights of the position (bulleted list)
  */
 const work = [
   {
@@ -51,11 +55,7 @@ const work = [
     endDate: '2023-01-01',
     summary: `Sector experience: Aviation, Consulting, Defence, FMCG, IT, UK Public Sector and Utilities (Electricity & Water). '/n' Influenced organisational transformation efforts through targeted learning strategies, leveraging stakeholder insights to optimise training impact. Designed and developed a range of learning deliverables (eLearnings, vILT, Peer to Peer, online resources etc.) to address gaps achieving client business goals leveraging TAP QA Learning and The LPI accredited learning methodology. Leveraged Kirkpatrick's evaluation and The Learning-Transfer Evaluation Model to determine how success will be measured for learning initiatives. Managed and led cross-functional teams remotely across various time zones, including project and people management responsibilities. Experience engaging learners who are office based or field force. Initiated a talent mobility project within a technology consultancy, focusing on creating efficient learning pathways for new and existing employees. Participated in Capgemini's Graduate Programme, leading initiatives to streamline digital marketing, SAP data processes and supporting an LMS for 80,000 users.`,
     highlights: [
-      'Built production, online, end-to-end optimized machine learning pipelines for time-series prediction.',
-      'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
-      "Set and communicated team priorities that supported the broader organization's goals. Aligned strategy, processes, and decision-making across teams.",
-      "Set clear expectations with individuals based on their level and role and aligned them to the broader organization's goals. Met regularly with individuals to discuss performance and development, and provided feedback and coaching.",
-      'Developed the long-term technical vision and roadmap within, and often beyond, the scope of my teams. Evolved the roadmap to meet anticipated future requirements and infrastructure needs.',
+      'Built production, online, end-to-end optimized machine learning pipelines for time-series prediction. Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting. Set and communicated team priorities that supported the broader organizations goals. Aligned strategy, processes, and decision-making across teams. Set clear expectations with individuals based on their level and role and aligned them to the broader organization's goals. Met regularly with individuals to discuss performance and development, and provided feedback and coaching. Developed the long-term technical vision and roadmap within, and often beyond, the scope of my teams. Evolved the roadmap to meet anticipated future requirements and infrastructure needs.',
     ],
   },
 ];
