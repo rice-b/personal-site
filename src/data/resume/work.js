@@ -39,7 +39,7 @@ const work = [
     Managed the lifecycle of numerous learning products and projects, from prototype development to piloting new learning solutions, demonstrating 
     a pragmatic and innovative approach to L&D challenges. Provided innovation consultancy with senior leaders to understand priorities and align 
     learning initiatives with business needs. Hired for FTC (fixed term contract) (maternity cover).`,
-    highlights: [
+    achievements: [
       'Designed and developed 3 AI-driven simulation (roleplays) with a 90% satisfaction and 100% on the job relevance rating.',
       'Organised 3 internal innovation conferences with an external speaker reaching 120 internal employees with an average 85% satisfaction rating.',
       'Published 4 innovation newsletters reaching ~700 internal employees.',
