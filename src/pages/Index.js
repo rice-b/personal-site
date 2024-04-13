@@ -12,7 +12,7 @@ const Index = () => (
         <div className="title">
           <h2><Link to="/">About this site</Link></h2>
           <p>
-            Welcome to my website.
+            Welcome to my website
           </p>
         </div>
       </header>

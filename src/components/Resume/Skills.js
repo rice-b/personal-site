@@ -60,7 +60,7 @@ const Skills = ({ skills, categories }) => {
     <div className="skills">
       <div className="link-to" id="skills" />
       <div className="title">
-        <h3>Skills</h3>
+        {/* <h3>Skills</h3>
         <p>Note: I think these sections are silly, but everyone seems to have one.
           Here is a *mostly* honest overview of my skills.
         </p>
@@ -69,8 +69,8 @@ const Skills = ({ skills, categories }) => {
         {getButtons()}
       </div>
       <div className="skill-row-container">
-        {getRows()}
-      </div>
+        {getRows()}*/}
+      </div> 
     </div>
   );
 };
