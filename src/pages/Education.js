@@ -23,9 +23,9 @@ const sections = {
   References: () => <References />,
 };
 
-const Resume = () => (
+const Education = () => (
   <Main
-    title="Resume"
+    title="Education"
     description="Michael D'Angelo's Resume. Smile Identity, Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook."
   >
     <article className="post" id="resume">
@@ -47,4 +47,4 @@ const Resume = () => (
   </Main>
 );
 
-export default Resume;
+export default Education;
