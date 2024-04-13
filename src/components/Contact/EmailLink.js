@@ -10,10 +10,22 @@ const validateText = (text) => {
 };
 
 const messages = [
-  'hi',
-  'hello',
-  'hola',
-  'you-can-email-me-at-literally-anything! Really',
+  'rice.brendan8',
+  'rice.brendan8',
+  'rice.brendan8',
+  'rice.brendan8',
+  'rice.brendan8',
+  'rice.brendan8',
+  'rice.brendan8',
+  'rice.brendan8',
+  'rice.brendan8',
+  'rice.brendan8',
+  'rice.brendan8',
+  'rice.brendan8',
+  'rice.brendan8',
+/*   'hello',
+  'hire',
+  'infoing! Really',
   'well, not anything. But most things',
   'like-this',
   'or-this',
@@ -24,7 +36,7 @@ const messages = [
   'help',
   'admin',
   'or-I-really-like-your-website',
-  'thanks',
+  'thanks', */
 ];
 
 const useInterval = (callback, delay) => {
@@ -82,9 +94,9 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
+      <a href={validateText(message) ? `mailto:${message}@gmail.com` : ''}>
         <span>{message}</span>
-        <span>@mldangelo.com</span>
+        <span>@gmail.com</span>
       </a>
     </div>
   );
