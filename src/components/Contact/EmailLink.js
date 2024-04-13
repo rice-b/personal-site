@@ -11,17 +11,7 @@ const validateText = (text) => {
 
 const messages = [
   'rice.brendan8',
-  'rice.brendan8',
-  'rice.brendan8',
-  'rice.brendan8',
-  'rice.brendan8',
-  'rice.brendan8',
-  'rice.brendan8',
-  'rice.brendan8',
-  'rice.brendan8',
-  'rice.brendan8',
-  'rice.brendan8',
-  'rice.brendan8',
+  'rice.brendan8+website',
   'rice.brendan8',
 /*   'hello',
   'hire',
