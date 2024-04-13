@@ -28,8 +28,9 @@ const About = () => {
       <article className="post markdown" id="about">
         <header>
           <div className="title">
-            <h2><Link to="/about">About Me</Link></h2>
+            <h2><Link to="/about">Interests</Link></h2>
             <p>(in about {count} words)</p>
+            My interests sharpen my skills, creativity and broaden my perspective
           </div>
         </header>
         <Markdown>

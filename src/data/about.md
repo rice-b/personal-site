@@ -1,3 +1,17 @@
+My interests sharpen my skills, creativity and broaden my perspective
+
+# Pro Bono Coaching for L&D
+- At the helm of the L&D Shakers Coaching initiative, I've proudly contributed to raising over £2,000 for Save the Children. It's more than coaching; it's about making a real impact.
+
+# Feast of Flavours Blog
+- Alongside a circle of fellow food lovers, I delve into the world of culinary delights. Our Feast of Flavours Blog is a tapestry of food tales, from homemade experiments to restaurant reviews, capturing the essence of our food-driven escapades.
+
+# Passion for Padel and Badminton
+- From leading my varsity badminton team to embracing the dynamic world of Padel, my journey with racquet sports is a testament to my love for challenge and community.
+
+# Maker/ DIY Tech Hobbyist
+- Making cool things with my Raspberry Pi for home and garden IOT automation. My projects, like the DIY Plant Moisture Meter (useful for house plants), Home Automation Hub (useful for weather, heating, connected devices), and built brendanrice.xyz.
+
 # Intro
 
 I am the VP of Engineering at Smile Identity, where I work on tools that have helped over 90 million people in Africa gain access to financial services. Before Smile, I was the co-founder & CTO of [Arthena](https://arthena.com) and a co-founder of [Matroid](https://matroid.com). In my spare time, I enjoy investing in people and ideas through a [small venture fund](https://skepticalinvestments.biz). I am particularly interested in projects with high social impact. If you think I can be helpful to you or your cause and would like to meet, please feel free to get in touch.
@@ -104,15 +118,7 @@ If we are friends and you feel like you belong on this list, you're probably rig
 
 Interests
 
-My interests sharpen my skills, creativity and broaden my perspective
 
-Pro Bono Coaching for L&D: At the helm of the L&D Shakers Coaching initiative, I've proudly contributed to raising over £2,000 for Save the Children. It's more than coaching; it's about making a real impact.
-
-Feast of Flavours Blog: Alongside a circle of fellow food lovers, I delve into the world of culinary delights. Our Feast of Flavours Blog is a tapestry of food tales, from homemade experiments to restaurant reviews, capturing the essence of our food-driven escapades.
-
-Passion for Padel and Badminton: From leading my varsity badminton team to embracing the dynamic world of Padel, my journey with racquet sports is a testament to my love for challenge and community.
-
-Maker/ DIY Tech Hobbyist: Making cool things with my Raspberry Pi for home and garden IOT automation. My projects, like the DIY Plant Moisture Meter (useful for house plants), Home Automation Hub (useful for weather, heating, connected devices), and built brendanrice.xyz.
 
 				<h2>Interests</h2>
 										<p>My interests sharpen my skills, creativity and broaden my perspective</p>
