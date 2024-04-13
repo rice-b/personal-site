@@ -20,33 +20,6 @@ const Skills = ({ skills, categories }) => {
     setButtons(newButtons);
   };
 
-  const SCHOOL1 = () => { // eslint-disable-line @typescript-eslint/no-unused-vars
-    // search for true active categories
-    const actCat = Object.keys(buttons).reduce((cat, key) => (
-      buttons[key] ? key : cat
-    ), 'All');
-
-    const comparator = (a, b) => {
-      let ret = 0;
-      if (a.competency > b.competency) ret = -1;
-      else if (a.competency < b.competency) ret = 1;
-      else if (a.category[0] > b.category[0]) ret = -1;
-      else if (a.category[0] < b.category[0]) ret = 1;
-      else if (a.title > b.title) ret = 1;
-      else if (a.title < b.title) ret = -1;
-      return ret;
-    };
-
-    return skills.sort(comparator).filter((skill) => (actCat === 'All' || skill.category.includes(actCat)))
-      .map((skill) => (
-        <SkillBar
-          categories={categories}
-          data={skill}
-          key={skill.title}
-        />
-      ));
-  };
-
   const getButtons = () => Object.keys(buttons).map((key) => (
     <CategoryButton
       label={key}
