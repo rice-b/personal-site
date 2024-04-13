@@ -5,7 +5,7 @@ const routes = [
     path: '/',
   },
   {
-    label: 'Work & Education',
+    label: 'Work & SCHOOL',
     path: '/resume',
   },
   {

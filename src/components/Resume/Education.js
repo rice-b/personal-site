@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Degree from './Education/Degree';
+import Degree from './SCHOOL/Degree';
 
-const Education1 = ({ data }) => (
-  <div className="education1">
-    <div className="link-to" id="education1" />
+const SCHOOL1 = ({ data }) => (
+  <div className="SCHOOL1">
+    <div className="link-to" id="SCHOOL1" />
     <div className="title">
-      <h3>Education</h3>
+      <h3>SCHOOL</h3>
     </div>
     {data.map((degree) => (
       <Degree
@@ -18,11 +18,11 @@ const Education1 = ({ data }) => (
   </div>
 );
 
-Education1.defaultProps = {
+SCHOOL1.defaultProps = {
   data: [],
 };
 
-Education1.propTypes = {
+SCHOOL1.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     school: PropTypes.string,
     degree: PropTypes.string,
@@ -31,4 +31,4 @@ Education1.propTypes = {
   })),
 };
 
-export default Education1;
+export default SCHOOL1;

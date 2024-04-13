@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
-import Education from '../components/Resume/Education';
+import SCHOOL from '../components/Resume/SCHOOL';
 import Experience from '../components/Resume/Experience';
 import Skills from '../components/Resume/Skills';
 import Courses from '../components/Resume/Courses';
@@ -16,7 +16,7 @@ import { skills, categories } from '../data/resume/skills';
 
 // NOTE: sections are displayed in order defined.
 const sections = {
-  Education: () => <Education data={degrees} />,
+  SCHOOL: () => <SCHOOL data={degrees} />,
   Experience: () => <Experience data={work} />,
   Skills: () => <Skills skills={skills} categories={categories} />,
   Courses: () => <Courses data={courses} />,
@@ -25,13 +25,13 @@ const sections = {
 
 const Resume = () => (
   <Main
-    title="Work & Education"
-    description="Brendan Rice's Work & Education."
+    title="Work & SCHOOL"
+    description="Brendan Rice's Work & SCHOOL."
   >
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2><Link to="resume">Work & Education</Link></h2>
+          <h2><Link to="resume">Work & SCHOOL</Link></h2>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>

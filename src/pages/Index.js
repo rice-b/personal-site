@@ -16,7 +16,7 @@ const Index = () => (
       <p>Please feel free to read more <Link to="/about">about me</Link>,
         or you can check out my {' '}
         <Link to="/resume">work experience</Link>, {' '}
-        <Link to="/projects">education</Link> & continued development, {' '}
+        <Link to="/projects">SCHOOL</Link> & continued development, {' '}
         view <Link to="/stats">interests</Link>, {' '}
         or <Link to="/contact">contact me</Link>.
       </p>
