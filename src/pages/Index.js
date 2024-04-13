@@ -12,19 +12,17 @@ const Index = () => (
         <div className="title">
           <h2><Link to="/">About this site</Link></h2>
           <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
+            Welcome to my website.
           </p>
         </div>
       </header>
-      <p> WXXXelcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
+      <p>Please feel free to read more <Link to="/about">about me</Link>,
         or you can check out my {' '}
-        <Link to="/resume">Work & Education</Link>, {' '}
-        <Link to="/projects">XX</Link>, {' '}
-        view <Link to="/stats">XX</Link>, {' '}
+        <Link to="/resume">work expereince</Link>, {' '}
+        <Link to="/projects">education & continued development</Link>, {' '}
+        view <Link to="/stats">interests</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p>XX Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
     </article>
   </Main>
 );

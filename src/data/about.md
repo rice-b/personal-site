@@ -100,3 +100,42 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 - [Will Holley](https://willholley.com)
 
 If we are friends and you feel like you belong on this list, you're probably right. Submit a PR, or ask me and I'll add you.
+
+
+Interests
+
+My interests sharpen my skills, creativity and broaden my perspective
+
+Pro Bono Coaching for L&D: At the helm of the L&D Shakers Coaching initiative, I've proudly contributed to raising over £2,000 for Save the Children. It's more than coaching; it's about making a real impact.
+
+Feast of Flavours Blog: Alongside a circle of fellow food lovers, I delve into the world of culinary delights. Our Feast of Flavours Blog is a tapestry of food tales, from homemade experiments to restaurant reviews, capturing the essence of our food-driven escapades.
+
+Passion for Padel and Badminton: From leading my varsity badminton team to embracing the dynamic world of Padel, my journey with racquet sports is a testament to my love for challenge and community.
+
+Maker/ DIY Tech Hobbyist: Making cool things with my Raspberry Pi for home and garden IOT automation. My projects, like the DIY Plant Moisture Meter (useful for house plants), Home Automation Hub (useful for weather, heating, connected devices), and built brendanrice.xyz.
+
+				<h2>Interests</h2>
+										<p>My interests sharpen my skills, creativity and broaden my perspective</p>
+									</div>
+									
+								</header>
+                                <p>
+                                    <b>Pro Bono Coaching for L&D: </b>
+                                    At the helm of the <a href="https://bit.ly/CoachingforLnD">L&D Shakers Coaching initiative</a>, 
+									I've proudly contributed to <a href="https://www.justgiving.com/fundraising/shakers-coachingforlandd">raising over £2,000 for Save the Children</a>. 
+									It's more than coaching; it's about making a real impact.</p>
+                                <p>
+                                    <b>Feast of Flavours Blog: </b>
+                                    Alongside a circle of fellow food lovers, I delve into the world of culinary delights. 
+									Our <a href="https://brendanrice.notion.site/Feast-of-Flavours-Blog-A-Culinary-Journey-With-Friends-69c65ae507284da4bf842d19724dc99c?pvs=4">Feast of Flavours Blog</a> 
+									is a tapestry of food tales, from homemade experiments to restaurant reviews, capturing the essence of our food-driven escapades.</p>
+                                <p>
+                                    <b>Passion for Padel and Badminton: </b>
+                                    From leading my varsity badminton team to embracing the dynamic world of Padel, my journey with racquet sports is a testament to my love for challenge and community.</p>
+                                </p>
+								<p>
+                                    <b>Maker/ DIY Tech Hobbyist: </b>
+                                    Making cool things with my Raspberry Pi for home and garden IOT automation. 
+									My projects, like the DIY Plant Moisture Meter (useful for house plants), Home Automation Hub (useful for weather, heating, connected devices), and built <a href="https://brendanrice.xyz">brendanrice.xyz</a>.</p>
+                                </p>
+								
