@@ -13,8 +13,8 @@ const routes = [
     path: '/education',
   },
   {
-    label: 'Interests',
-    path: '/interests',
+    label: 'About',
+    path: '/about',
   },
   {
     label: 'Contact',
