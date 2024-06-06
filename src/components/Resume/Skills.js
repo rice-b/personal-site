@@ -20,33 +20,6 @@ const Skills = ({ skills, categories }) => {
     setButtons(newButtons);
   };
 
-  const getRows = () => {
-    // search for true active categories
-    const actCat = Object.keys(buttons).reduce((cat, key) => (
-      buttons[key] ? key : cat
-    ), 'All');
-
-    const comparator = (a, b) => {
-      let ret = 0;
-      if (a.competency > b.competency) ret = -1;
-      else if (a.competency < b.competency) ret = 1;
-      else if (a.category[0] > b.category[0]) ret = -1;
-      else if (a.category[0] < b.category[0]) ret = 1;
-      else if (a.title > b.title) ret = 1;
-      else if (a.title < b.title) ret = -1;
-      return ret;
-    };
-
-    return skills.sort(comparator).filter((skill) => (actCat === 'All' || skill.category.includes(actCat)))
-      .map((skill) => (
-        <SkillBar
-          categories={categories}
-          data={skill}
-          key={skill.title}
-        />
-      ));
-  };
-
   const getButtons = () => Object.keys(buttons).map((key) => (
     <CategoryButton
       label={key}
@@ -60,7 +33,7 @@ const Skills = ({ skills, categories }) => {
     <div className="skills">
       <div className="link-to" id="skills" />
       <div className="title">
-        <h3>Skills</h3>
+        {/* <h3>Skills</h3>
         <p>Note: I think these sections are silly, but everyone seems to have one.
           Here is a *mostly* honest overview of my skills.
         </p>
@@ -69,8 +42,8 @@ const Skills = ({ skills, categories }) => {
         {getButtons()}
       </div>
       <div className="skill-row-container">
-        {getRows()}
-      </div>
+        {SCHOOL1()}*/}
+      </div> 
     </div>
   );
 };

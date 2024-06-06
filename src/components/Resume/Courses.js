@@ -21,14 +21,14 @@ const getRows = (courses) => courses.sort((a, b) => {
 const Courses = ({ data }) => (
   <div className="courses">
     <div className="link-to" id="courses" />
-    <div className="title">
+{/*     <div className="title">
       <h3>Selected Courses</h3>
     </div>
     <ul className="course-list">
       {getRows(data)}
-    </ul>
+    </ul> */}
   </div>
-);
+); 
 
 Courses.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({

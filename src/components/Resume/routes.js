@@ -1,4 +1,4 @@
-const routes = [
+const SCHOOL1 = [
   {
     index: true,
     label: 'Brendan Rice',
@@ -22,4 +22,4 @@ const routes = [
   },
 ];
 
-export default routes;
+export default SCHOOL1;
